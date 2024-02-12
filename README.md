@@ -1,27 +1,27 @@
-Проект направлен на разработку приложения Социального Мессенджера с использованием технологий Java, Spring Boot и Hibernate. Приложение разрабатывается с целью предоставить пользователям платформу для общения, позволяя создавать чаты, обмениваться сообщениями и подключаться к другим пользователям в социальной сети.
+The project aims to develop a Social Messenger application using Java, Spring Boot, and Hibernate technologies. The application is designed to provide users with a platform for communication, allowing them to create chats, exchange messages, and connect with others in a social networking environment.
 
-Функциональность (в разработке):
-Регистрация и аутентификация пользователей:
+Features (In Development):
+User Registration and Authentication:
 
-Пользователи могут зарегистрироваться с уникальным именем пользователя, электронной почтой и паролем.
-Аутентификация реализована с использованием Spring Security для обеспечения безопасного доступа к приложению.
-Чаты и обмен сообщениями:
+Users can register with a unique username, email, and password.
+Authentication is implemented using Spring Security, ensuring secure access to the application.
+Chat and Messaging:
 
-Пользователи могут создавать групповые чаты с несколькими участниками.
-Реальное время обмена сообщениями с использованием WebSocket для мгновенной доставки сообщений.
-Поддержка текстовых сообщений и отправки файлов.
-Управление контактами:
+Users can create group chats with multiple participants.
+Real-time messaging capabilities using WebSocket for instant message delivery.
+Support for text messages and file attachments.
+Contact Management:
 
-Пользователи могут добавлять других в свой список контактов.
-Индикация онлайн-статуса для контактов.
-Уведомления:
+Users can add others to their contact list.
+Online status indication for contacts.
+Notifications:
 
-Пользователи получают уведомления о новых сообщениях в чатах и запросах на добавление в контакты.
-Безопасность:
+Users receive notifications for new messages in their chats and contact requests.
+Security:
 
-Реализация безопасного хэширования паролей с использованием bcrypt.
-Защита от атак CSRF и других уязвимостей безопасности.
-Используемые технологии:
+Implementation of secure password hashing using bcrypt.
+Protection against CSRF attacks and other security vulnerabilities.
+Technologies Used:
 Java
 Spring Boot
 Hibernate
